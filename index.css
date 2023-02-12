@@ -1,0 +1,116 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background: hsl(30, 38%, 92%); /* Just to visualize the extent */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .card{
+    position:absolute;
+    border-radius: 10px;
+    background: white;
+    width:550px;
+    height:425px;
+    display:flex;
+    margin:5px;
+    justify-content: center;
+
+        
+  }
+  .card img{
+    width:275px;
+    height:425px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .infos{
+    margin:30px;
+    font-family: 'Fraunces', serif;
+  }
+  .infos h5{
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+    color:hsl(228, 12%, 48%);
+  }
+  .infos h4{
+    margin-top:3%;
+    letter-spacing: 3px;;
+    font-size:30px;
+    font-family: 'Fraunces', serif;
+    color:black;
+    letter-spacing: 0px;
+    line-height: 30px;
+  }
+  .infos h6{
+    color:hsl(228, 12%, 48%);
+    font-size:12px;
+  }
+
+  .infos .features{
+    margin-top:25px;
+  }
+
+  .prices{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:-50px;
+    margin-top:10px;
+  }
+
+  .prices .price-discounted{
+    color:rgb(0, 128, 128);
+    font-size:30px;
+  }
+
+  .prices .price-strike-through{
+    color:hsl(228, 12%, 48%);
+    font-size: 12px;
+    margin-left:10px;
+    ;
+
+  }
+  .cart{
+    display:flex;
+    background: rgb(4, 162, 165);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:225px;
+    height:50px;
+    border-radius: 10px;
+    margin-top:25px;
+  }
+
+  .cart img{
+    width:15px;
+    height:15px;
+   
+    
+  }
+
+  .btn-cart{
+    border:none;
+    background: none;
+    color:white;
+    font-family: 'Fraunces', serif;
+    
+  }
+
+  .cart:hover,.btn-cart:hover{
+    background: rgb(110, 25, 184);
+    cursor:pointer;
+  }
